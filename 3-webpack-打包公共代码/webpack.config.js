@@ -4,8 +4,8 @@ var path = require('path')
 module.exports = {
     entry: {
         'pageA': './src/pageA',
-        'pageB': './src/pageB',
-        'vender': ['lodash']
+        // 'pageB': './src/pageB',
+        // 'vender': ['lodash']
     },
 
     output: {
@@ -14,15 +14,15 @@ module.exports = {
         chunkFilename: '[name].chunk.js'
     },
 
-    plugins: [
-        new webpack.optimize.CommonsChunkPlugin({
-            name: 'common',
-            minChunks: 2,
-            chunks: ['pageA', 'pageB']
-        }),
-        new webpack.optimize.CommonsChunkPlugin({
-            names: ['vender', 'manifest'],
-            minChunks: Infinity
-        }),
-    ]
+    // plugins: [
+    //     new webpack.optimize.CommonsChunkPlugin({
+    //         name: 'common',
+    //         minChunks: 2,
+    //         chunks: ['pageA', 'pageB']
+    //     }),
+    //     new webpack.optimize.CommonsChunkPlugin({
+    //         names: ['vender', 'manifest'],
+    //         minChunks: Infinity
+    //     }),
+    // ]
 }

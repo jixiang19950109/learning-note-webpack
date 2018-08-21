@@ -1,0 +1,30 @@
+.bigbox {
+  border: 1px solid #000;
+  width: 400px;
+  height: 400px;
+}
+.bigbox > div {
+  width: 64px;
+  height: 64px;
+  float: left;
+}
+.bigbox .ani1 {
+  background-image: url(../assets/imgs/aaa0e92ff895c0aa7e892d9ff4d11f6d.png);
+  background-position: 0px 0px;
+  background-size: 312px 306px;
+}
+.bigbox .ani2 {
+  background-image: url(../assets/imgs/aaa0e92ff895c0aa7e892d9ff4d11f6d.png);
+  background-position: -156px 0px;
+  background-size: 312px 306px;
+}
+.bigbox .ani3 {
+  background-image: url(../assets/imgs/aaa0e92ff895c0aa7e892d9ff4d11f6d.png);
+  background-position: 0px -156px;
+  background-size: 312px 306px;
+}
+.bigbox .ani4 {
+  background-image: url(../assets/imgs/aaa0e92ff895c0aa7e892d9ff4d11f6d.png);
+  background-position: -150px -156px;
+  background-size: 312px 306px;
+}

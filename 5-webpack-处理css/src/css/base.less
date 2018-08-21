@@ -1,0 +1,14 @@
+@homeBg: red;
+
+html {
+    background: @homeBg
+}
+
+.box {
+    composes: bigbox from './common.less';
+    height: 200px;
+    width: 200px;
+    border-radius: 3px;
+    background-color: red;
+    transition: transform 1s;
+}

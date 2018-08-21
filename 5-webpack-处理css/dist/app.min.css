@@ -1,0 +1,29 @@
+.src-css-common_bigbox_1EL-l {
+    border: 1px solid #000;
+}
+
+:root {
+    --mainColor: red;
+}
+
+a {
+    color: var(--mainColor)
+}html {
+  background: red;
+}
+.src-css-base_box_1dC2a {
+  height: 200px;
+  width: 200px;
+  border-radius: 3px;
+  background-color: red;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+.src-css-common_bigbox_1EL-l {
+  border: 1px solid #000;
+}
+a {
+  color: red;
+}
